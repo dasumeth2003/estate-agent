@@ -1,0 +1,156 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home...",
+      "longDescription": "Full description here...",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "postcode": "BR5",
+      "images": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"
+      ],
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "added": { "month": "October", "day": 12, "year": 2022 }
+    },
+    
+  
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat.",
+      "longDescription": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee.",
+      "location": "Crofton Road Orpington BR6",
+      "postcode": "BR6",
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+        "https://images.unsplash.com/photo-1502672260066-6bc35f0af07e?w=800",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
+        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800",
+        "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?w=800",
+        "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800"
+      ],
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "added": { "month": "September", "day": 14, "year": 2022 }   
+    },
+
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 950000,
+      "tenure": "Freehold",
+      "description": "Stunning four bedroom detached house in a prime location with modern finishes throughout.",
+      "longDescription": "This exceptional four bedroom detached family home offers spacious accommodation arranged over two floors. The ground floor features a grand entrance hall, a large living room with bay window, separate dining room, modern fitted kitchen/breakfast room with integrated appliances, and a utility room. Upstairs you'll find four generous bedrooms, the master with en-suite, and a luxury family bathroom. The property benefits from a beautifully landscaped rear garden, driveway parking for multiple vehicles, and a garage.",
+      "location": "Richmond Road, Kingston KT2",
+      "postcode": "KT2",
+      "images": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800",
+        "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=800",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800",
+        "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800"
+      ],
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "added": { "month": "November", "day": 5, "year": 2022 }   
+    },
+
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Leasehold",
+      "description": "Modern one bedroom apartment perfect for first-time buyers or investors.",
+      "longDescription": "This contemporary one bedroom apartment is situated on the third floor of a modern development. The accommodation comprises an open plan kitchen/living area with integrated appliances and access to a private balcony, one double bedroom with built-in wardrobes, and a stylish bathroom suite. The property benefits from secure entry system, lift access, allocated parking, and is within walking distance of the town centre and train station. Ideal for professionals or as a buy-to-let investment.",
+      "location": "Station Approach, Bromley BR1",
+      "postcode": "BR1",
+      "images": [
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800",
+        "https://images.unsplash.com/photo-1502672023488-70e25813eb80?w=800",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800",
+        "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=800",
+        "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=800"
+      ],
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "added": { "month": "January", "day": 20, "year": 2023 }   
+    },
+
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1250000,
+      "tenure": "Freehold",
+      "description": "Luxurious five bedroom executive home with landscaped gardens and double garage.",
+      "longDescription": "An impressive five bedroom executive detached residence set in a sought-after residential area. This substantial property offers versatile accommodation including entrance hall with gallery landing, two reception rooms, study, luxury kitchen/dining room with bi-fold doors to garden, utility, and ground floor cloakroom. The first floor comprises five bedrooms (master with dressing room and en-suite), family bathroom, and separate WC. Additional features include underfloor heating, smart home technology, landscaped gardens, and a double garage with electric doors.",
+      "location": "The Avenue, Wimbledon SW19",
+      "postcode": "SW19",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
+        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?w=800",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800"
+      ],
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "added": { "month": "December", "day": 1, "year": 2022 }   
+    },
+
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 5250000,
+      "tenure": "Leasehold",
+      "description": "Spacious three bedroom maisonette with private garden and parking.",
+      "longDescription": "A rarely available three bedroom split-level maisonette forming part of a Victorian conversion. The property offers well-proportioned accommodation over two floors including a bright reception room with feature fireplace, modern fitted kitchen, three good-sized bedrooms, family bathroom, and a separate WC. Benefits include a private rear garden, off-street parking, gas central heating, double glazing, and proximity to local amenities and transport links. Chain free sale.",
+      "location": "Grove Park, Lewisham SE12",
+      "postcode": "SE12",
+      "images": [
+        "https://images.unsplash.com/photo-1515263487990-61b07816b324?w=800",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
+        "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800",
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800"
+      ],
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "added": { "month": "February", "day": 28, "year": 2023 }   
+    },
+
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 4850000,
+      "tenure": "Freehold",
+      "description": "Charming two bedroom cottage with character features and sunny garden.",
+      "longDescription": "A delightful two bedroom period cottage offering characterful accommodation. The property retains many original features including exposed beams, wooden floors, and an inglenook fireplace. Accommodation comprises entrance porch, cosy living room, dining room, fitted kitchen, two bedrooms, and a bathroom. Outside there is a beautifully maintained cottage garden to the rear with patio area, mature plants and shrubs. Located in a quiet residential area yet within easy reach of local shops and transport.",
+      "location": "Church Lane, Beckenham BR3",
+      "postcode": "BR3",
+      "images": [
+        "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800",
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=800",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800",
+        "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=800",
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
+        "https://images.unsplash.com/photo-1600563440091-5bf9992896c6?w=800"
+      ],
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "added": { "month": "March", "day": 15, "year": 2023 }   
+    }
+    
+  ] 
+  
+}
