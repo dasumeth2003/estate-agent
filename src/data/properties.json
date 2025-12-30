@@ -19,28 +19,7 @@
     },
     
   
-    {
-      "id": "prop2",
-      "type": "Flat",
-      "bedrooms": 2,
-      "price": 399995,
-      "tenure": "Freehold",
-      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat.",
-      "longDescription": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee.",
-      "location": "Crofton Road Orpington BR6",
-      "postcode": "BR6",
-      "images": [
-        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
-        "https://images.unsplash.com/photo-1502672260066-6bc35f0af07e?w=800",
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
-        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800",
-        "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?w=800",
-        "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800"
-      ],
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
-      "added": { "month": "September", "day": 14, "year": 2022 }   
-    },
-
+    
     {
       "id": "prop3",
       "type": "House",
