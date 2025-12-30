@@ -1,9 +1,8 @@
 import React from 'react';
+import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import Select from 'react-select';
-import Slider from 'rc-slider';
-import 'rc-slider/assets/index.css';
+
 
 /**
  * SearchForm Component with React UI Widgets
