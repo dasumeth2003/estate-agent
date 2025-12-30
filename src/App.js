@@ -254,7 +254,7 @@ function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-        <p>&copy; 2025 Estate Agent App. Dasuntha Samarasinghe</p>
+        <p>&copy; 2025 Estate Agent App. University of Westminster</p>
       </footer>
     </div>
   );
