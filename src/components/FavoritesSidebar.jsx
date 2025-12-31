@@ -10,6 +10,11 @@ function FavoritesSidebar({
   onDrop,
   onDragStart 
 }) {
+
+  const handleImageError = (e) => {
+    e.target.src = '/images/placeholder.jpg'
+  };
+
   return (
     <div className="favorites-sidebar">
       {/* Header with Clear Button */}
@@ -47,6 +52,7 @@ function FavoritesSidebar({
                   src={property.images[0]}
                   alt={property.location}
                   className="favorite-image"
+                  onError={handleImageError}
                 />
                 <div className="favorite-info">
                   <p className="favorite-price">
