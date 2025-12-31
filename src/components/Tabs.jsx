@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 
-// Tabs Component - Tabbed interface for property details
+/* Tabs Component - Tabbed interface for property details*/
 function Tabs({ property }) {
   const [activeTab, setActiveTab] = useState('description');
+
+  const handleImageError = (e) => {
+    e.target.src = '/images/placeholder.jpg';
+  }
 
   return (
     <div className="tabs-container">
@@ -48,6 +52,7 @@ function Tabs({ property }) {
               src={property.floorPlan}
               alt="Floor Plan"
               className="floorplan-image"
+              onError={handleImageError}
             />
           </div>
         )}
