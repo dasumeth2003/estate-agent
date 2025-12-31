@@ -115,9 +115,7 @@ function App() {
     setFilteredProperties(results);
   };
 
-  /**
-   * Add property to favorites (with duplicate prevention)
-   */
+  /* Add property to favorites (with duplicate prevention) */
   const handleAddToFavorites = (property) => {
     // Check if already in favorites
     if (!favorites.find(f => f.id === property.id)) {
@@ -125,41 +123,31 @@ function App() {
     }
   };
 
-  /**
-   * Remove property from favorites
-   */
+  /* Remove property from favorites */
   const handleRemoveFavorite = (propertyId) => {
     setFavorites(favorites.filter(f => f.id !== propertyId));
   };
 
-  /**
-   * Clear all favorites with confirmation
-   */
+  /* Clear all favorites with confirmation */
   const handleClearFavorites = () => {
     if (window.confirm('Are you sure you want to clear all favorites?')) {
       setFavorites([]);
     }
   };
 
-  /**
-   * View property details
-   */
+  /* View property details */
   const handleViewProperty = (property) => {
     setSelectedProperty(property);
     setShowDetails(true);
   };
 
-  /**
-   * Close property details and go back to search
-   */
+  /* Close property details and go back to search */
   const handleBackToSearch = () => {
     setShowDetails(false);
     setSelectedProperty(null);
   };
 
-  /**
-   * Toggle favorite status from details page
-   */
+  /*Toggle favorite status from details page*/
   const handleToggleFavoriteFromDetails = () => {
     if (selectedProperty) {
       if (favorites.find(f => f.id === selectedProperty.id)) {
@@ -170,9 +158,7 @@ function App() {
     }
   };
 
-  /**
-   * Drag and Drop Handlers
-   */
+  /* Drag and Drop Handlers*/
   const handleDragStart = (e, property, source) => {
     e.dataTransfer.setData('property', JSON.stringify(property));
     e.dataTransfer.setData('source', source);
