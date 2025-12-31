@@ -58,24 +58,25 @@ function FavoritesSidebar({
                   <div className="favorite-actions">
                     <button
                       onClick={() => onView(property)}
-                        className="favorite-view"
+                      className="favorite-view"
                     >
-                    View
+                      View
                     </button>
                     <button
-                    onClick={() => onRemove(property.id)}
-                    className="favorite-remove"
+                      onClick={() => onRemove(property.id)}
+                      className="favorite-remove"
                     >
-                    Remove
+                      Remove
                     </button>
-                    </div>
-                    </div>
-                    </div>
-                    ))}
-                    </div>
-                    )}
-                    </div>
-                    </div>
-                    );
-                    }
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default FavoritesSidebar;
