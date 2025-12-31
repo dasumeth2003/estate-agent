@@ -2,10 +2,7 @@ import React from 'react';
 import ImageGallery from './ImageGallery';
 import Tabs from './Tabs';
 
-/**
- * PropertyDetails Component - Full property details page
- * Shows: image gallery, property info, tabs with description/floor plan/map
- */
+/* Shows: image gallery, property info, tabs with description/floor plan/map*/
 function PropertyDetails({ property, onBack, onFavorite, isFavorite }) {
   
   // Error handling - property not found
