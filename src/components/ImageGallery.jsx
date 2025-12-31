@@ -23,6 +23,10 @@ function ImageGallery({ images, alt }) {
     setCurrentIndex(index);
   };
 
+  const handleImageError = (e) => {
+    e.target.src = '/images/placeholder.jpg';
+  }
+
   return (
     <div className="image-gallery">
       {/* Main Image Display */}
@@ -31,6 +35,7 @@ function ImageGallery({ images, alt }) {
           src={images[currentIndex]}
           alt={`${alt} - Image ${currentIndex + 1}`}
           className="gallery-image"
+          onError={handleImageError}
         />
         
         {/* Previous Button */}
@@ -58,6 +63,7 @@ function ImageGallery({ images, alt }) {
             alt={`Thumbnail ${idx + 1}`}
             onClick={() => goToImage(idx)}
             className={`thumbnail ${idx === currentIndex ? 'active' : ''}`}
+            onError={handleImageError}
           />
         ))}
       </div>
