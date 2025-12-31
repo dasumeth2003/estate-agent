@@ -4,10 +4,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
 
-/**
- * SearchForm Component with React UI Widgets
- * All form elements enhanced with React widgets for better UX
- */
+/* All form elements enhanced with React widgets for better UX */
 function SearchForm({ filters, setFilters, onSearch }) {
   
   // Handle form submission
