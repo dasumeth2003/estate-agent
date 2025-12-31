@@ -10,30 +10,9 @@ import propertiesData from './data/properties.json';
  */
 
 describe('Estate Agent Application Tests', () => {
-  
-  // TEST 1: Application renders without crashing
-test.skip('1. App renders successfully with header and main content', () => {
-  render(<App />);
-  
-  // Check if title is present
-  const titleElement = screen.getByText(/Estate Agent/i);
-  expect(titleElement).toBeInTheDocument();
-  
-  // Check if subtitle is present
-  const subtitleElement = screen.getByText(/Find your dream property/i);
-  expect(subtitleElement).toBeInTheDocument();
-  
-  // Check if search button is present
-  const searchButton = screen.getByRole('button', { name: /Search Properties/i });
-  expect(searchButton).toBeInTheDocument();
-  
-  // Check if properties are displayed (should show 7 initially)
-  const propertiesCount = screen.getByText(/7 Properties Found/i);
-  expect(propertiesCount).toBeInTheDocument();
-});
 
-  // TEST 2: Search functionality - Filter by price range
-  test('2. Search filters properties by price range', () => {
+  // TEST 1: Search functionality - Filter by price range
+  test('1. Search filters properties by price range', () => {
     render(<App />);
     
     // Set min price to 400000 and max price to 800000
@@ -51,8 +30,8 @@ test.skip('1. App renders successfully with header and main content', () => {
     expect(screen.getByText(/Properties Found/i)).toBeInTheDocument();
   });
 
-  // TEST 3: Search functionality - Filter by bedrooms
-  test('3. Search filters properties by minimum bedrooms', () => {
+  // TEST 2: Search functionality - Filter by bedrooms
+  test('2. Search filters properties by minimum bedrooms', () => {
     render(<App />);
     
     // Initial state should show 7 properties
@@ -70,8 +49,8 @@ test.skip('1. App renders successfully with header and main content', () => {
     expect(screen.getByText(/Properties Found/i)).toBeInTheDocument();
   });
 
-  // TEST 4: Favorites - Add property to favorites using View Details button
-  test('4. Can navigate to property details', () => {
+  // TEST 3: Favorites - Add property to favorites using View Details button
+  test('3. Can navigate to property details', () => {
     render(<App />);
     
     // Find all "View Details" buttons
@@ -89,16 +68,16 @@ test.skip('1. App renders successfully with header and main content', () => {
     });
   });
 
-  // TEST 5: Favorites count starts at zero
-  test('5. Favorites counter starts at zero', () => {
+  // TEST 4: Favorites count starts at zero
+  test('4. Favorites counter starts at zero', () => {
     render(<App />);
     
     // Check initial favorites count
     expect(screen.getByText(/Favorites \(0\)/i)).toBeInTheDocument();
   });
 
-  // TEST 6: Reset button clears filters
-  test('6. Reset button clears all filters', () => {
+  // TEST 5: Reset button clears filters
+  test('5. Reset button clears all filters', () => {
     render(<App />);
     
     // Set some filters
@@ -116,8 +95,8 @@ test.skip('1. App renders successfully with header and main content', () => {
     expect(minPriceInput.value).toBe('');
   });
 
-  // TEST 7: Postcode search works
-  test('7. Postcode search filter works', () => {
+  // TEST 6: Postcode search works
+  test('6. Postcode search filter works', () => {
     render(<App />);
     
     // Find postcode input
@@ -134,8 +113,8 @@ test.skip('1. App renders successfully with header and main content', () => {
     expect(screen.getByText(/Properties Found/i)).toBeInTheDocument();
   });
 
-  // TEST 8: All 7 properties display initially
-  test('8. All 7 properties display on initial load', () => {
+  // TEST 7: All 7 properties display initially
+  test('7. All 7 properties display on initial load', () => {
     render(<App />);
     
     // Should show 7 properties
@@ -159,7 +138,7 @@ describe('PropertyCard Component Tests', () => {
   const mockOnFavorite = jest.fn();
   const mockOnDragStart = jest.fn();
 
-  test('9. PropertyCard renders with correct property information', () => {
+  test('8. PropertyCard renders with correct property information', () => {
     render(
       <PropertyCard
         property={mockProperty}
@@ -183,7 +162,7 @@ describe('PropertyCard Component Tests', () => {
     expect(screen.getByText(/View Details/i)).toBeInTheDocument();
   });
 
-  test('10. PropertyCard View Details button triggers callback', () => {
+  test('9. PropertyCard View Details button triggers callback', () => {
     render(
       <PropertyCard
         property={mockProperty}
@@ -206,8 +185,8 @@ describe('PropertyCard Component Tests', () => {
 
 describe('Search Filter Logic Tests', () => {
   
-  // TEST 11: Filter logic - Price filtering
-  test('11. Price filter logic works correctly', () => {
+  // TEST 10: Filter logic - Price filtering
+  test('10. Price filter logic works correctly', () => {
     const properties = propertiesData.properties;
     const minPrice = 400000;
     const maxPrice = 800000;
@@ -226,8 +205,8 @@ describe('Search Filter Logic Tests', () => {
     });
   });
 
-  // TEST 12: Filter logic - Bedroom filtering
-  test('12. Bedroom filter logic works correctly', () => {
+  // TEST 11: Filter logic - Bedroom filtering
+  test('11. Bedroom filter logic works correctly', () => {
     const properties = propertiesData.properties;
     const minBedrooms = 3;
     
@@ -242,8 +221,8 @@ describe('Search Filter Logic Tests', () => {
     expect(filtered.length).toBeGreaterThan(0);
   });
 
-  // TEST 13: Filter logic - Postcode filtering
-  test('13. Postcode filter logic works correctly', () => {
+  // TEST 12: Filter logic - Postcode filtering
+  test('12. Postcode filter logic works correctly', () => {
     const properties = propertiesData.properties;
     const postcodeSearch = 'BR';
     
@@ -260,8 +239,8 @@ describe('Search Filter Logic Tests', () => {
     });
   });
 
-  // TEST 14: Filter logic - Type filtering
-  test('14. Property type filter logic works correctly', () => {
+  // TEST 13: Filter logic - Type filtering
+  test('13. Property type filter logic works correctly', () => {
     const properties = propertiesData.properties;
     const typeFilter = 'house';
     
@@ -282,8 +261,8 @@ describe('Search Filter Logic Tests', () => {
 
 describe('Favorites Functionality Tests', () => {
   
-  // TEST 15: Duplicate prevention logic
-  test('15. Favorites duplicate prevention works', () => {
+  // TEST 14: Duplicate prevention logic
+  test('14. Favorites duplicate prevention works', () => {
     let favorites = [];
     const property = propertiesData.properties[0];
     
