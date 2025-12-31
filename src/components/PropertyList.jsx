@@ -1,7 +1,7 @@
 import React from 'react';
 import PropertyCard from './PropertyCard';
 
-// PropertyList Component - Displays grid of properties
+/* PropertyList Component - Displays grid of properties*/
 function PropertyList({ 
   properties, 
   onViewProperty, 
