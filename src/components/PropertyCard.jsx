@@ -2,6 +2,10 @@ import React from 'react';
 
 // PropertyCard Component - Displays individual property preview
 function PropertyCard({ property, onView, onFavorite, isFavorite, onDragStart }) {
+  const handleImageError = (e) => {
+    e.target.src = "/images/placeholder.jpg"
+  }
+  
   return (
     <div
       draggable // Makes the card draggable
@@ -13,6 +17,7 @@ function PropertyCard({ property, onView, onFavorite, isFavorite, onDragStart })
         src={property.images[0]}
         alt={property.location}
         className="property-image"
+        onError={handleImageError}
       />
       
       <div className="property-content">
