@@ -11,15 +11,15 @@
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
       "postcode": "BR5",
       "images": [
-       "//images//prop1//prop1pic1.png",
-        "//images//prop1//prop1pic2.png",
-        "/images/prop1/prop1pic3.jpg",
-        "/images/prop1/prop1pic4.jpg",
-        "/images/prop1/prop1pic5.jpg",
-        "/images/prop1/prop1pic6.jpg"
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800"
       ],
       
-      "floorPlan": "/images/prop1/prop1floorplan.jpg",
+      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
       "added": { "month": "October", "day": 12, "year": 2022 }
     },
     
