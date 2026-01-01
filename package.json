@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://dasumeth2003.github.io/estate-agent-app",
   "description": "Estate Agent Property Search Application",
-  "author": "Your Name",
+  "author": "Dasuntha Samarsinghe",
   "dependencies": {
     "dompurify": "^3.0.8",
     "rc-slider": "^10.5.0",
