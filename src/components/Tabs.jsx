@@ -5,6 +5,7 @@ function Tabs({ property }) {
   const [activeTab, setActiveTab] = useState('description');
 
   const handleImageError = (e) => {
+    console.log('Image failes to load: ', e.target.src);
     e.target.src = '/images/placeholder.jpg';
   }
 
@@ -15,18 +16,21 @@ function Tabs({ property }) {
         <button
           onClick={() => setActiveTab('description')}
           className={`tab-button ${activeTab === 'description' ? 'active' : ''}`}
+          type="button"
         >
           📝 Description
         </button>
         <button
           onClick={() => setActiveTab('floorplan')}
           className={`tab-button ${activeTab === 'floorplan' ? 'active' : ''}`}
+          type="button"
         >
           📐 Floor Plan
         </button>
         <button
           onClick={() => setActiveTab('map')}
           className={`tab-button ${activeTab === 'map' ? 'active' : ''}`}
+          type="button"
         >
           🗺️ Map
         </button>
