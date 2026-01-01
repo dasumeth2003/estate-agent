@@ -17,7 +17,7 @@ function PropertyList({
       
       {properties.length === 0 ? (
         <div className="no-results">
-          <p>😕 No properties match your search criteria.</p>
+          <p>No properties match your search criteria.</p>
           <p>Try adjusting your filters.</p>
         </div>
       ) : (
