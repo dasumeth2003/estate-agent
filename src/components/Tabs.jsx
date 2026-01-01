@@ -18,21 +18,21 @@ function Tabs({ property }) {
           className={`tab-button ${activeTab === 'description' ? 'active' : ''}`}
           type="button"
         >
-          📝 Description
+          Description
         </button>
         <button
           onClick={() => setActiveTab('floorplan')}
           className={`tab-button ${activeTab === 'floorplan' ? 'active' : ''}`}
           type="button"
         >
-          📐 Floor Plan
+         Floor Plan
         </button>
         <button
           onClick={() => setActiveTab('map')}
           className={`tab-button ${activeTab === 'map' ? 'active' : ''}`}
           type="button"
         >
-          🗺️ Map
+          Map
         </button>
       </div>
 
