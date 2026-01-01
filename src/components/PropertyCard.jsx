@@ -3,6 +3,7 @@ import React from 'react';
 // PropertyCard Component - Displays individual property preview
 function PropertyCard({ property, onView, onFavorite, isFavorite, onDragStart }) {
   const handleImageError = (e) => {
+    console.log('Image failed to load: ', e.target.src);
     e.target.src = "/images/placeholder.jpg"
   }
   
