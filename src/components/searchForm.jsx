@@ -195,7 +195,7 @@ function SearchForm({ filters, setFilters, onSearch }) {
       {/* Action Buttons */}
       <div className="form-actions">
         <button type="submit" className="search-button">
-          🔍 Search Properties
+          Search Properties
         </button>
         
         <button
