@@ -10,7 +10,7 @@ function PropertyDetails({ property, onBack, onFavorite, isFavorite }) {
     return (
       <div className="error-container">
         <div className="error-content">
-          <h2>❌ Property Not Found</h2>
+          <h2>Property Not Found</h2>
           <p>The property you're looking for doesn't exist.</p>
           <button onClick={onBack} className="back-button">
             ← Back to Search
