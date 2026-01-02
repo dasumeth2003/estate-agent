@@ -5,6 +5,12 @@ import PropertyDetails from './components/PropertyDetails';
 import FavoritesSidebar from './components/FavoritesSidebar';
 import propertiesData from './data/properties.json';
 import './App.css';
+import { BrowserRouter } from "react-router-dom";
+
+<BrowserRouter basename="/estate-agent">
+  <App />
+</BrowserRouter>
+
 
 function App() {
   // State Management
