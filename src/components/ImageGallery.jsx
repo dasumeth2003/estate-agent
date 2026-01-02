@@ -24,7 +24,7 @@ function ImageGallery({ images, alt }) {
   };
 
   const handleImageError = (e) => {
-    e.target.src = '/images/placeholder.jpg';
+    e.target.src = `${process.env.PUBLIC_URL}/images/placeholder.jpg`;
   }
 
   return (
@@ -32,7 +32,7 @@ function ImageGallery({ images, alt }) {
       {/* Main Image Display */}
       <div className="gallery-main">
         <img
-          src={images[currentIndex]}
+          src={`${process.env.PUBLIC_URL}${images[currentIndex]}`}
           alt={`${alt} - Image ${currentIndex + 1}`}
           className="gallery-image"
           onError={handleImageError}
@@ -59,7 +59,7 @@ function ImageGallery({ images, alt }) {
         {images.map((img, idx) => (
           <img
             key={idx}
-            src={img}
+            src={`${process.env.PUBLIC_URL}${img}`}
             alt={`Thumbnail ${idx + 1}`}
             onClick={() => goToImage(idx)}
             className={`thumbnail ${idx === currentIndex ? 'active' : ''}`}
