@@ -11,19 +11,19 @@
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
       "postcode": "BR5",
       "images": [
-        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
-        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800"
+        "images/prop1/prop1pic1.png",
+        "images/prop1/prop1pic2.png",
+        "images/prop1/prop1pic3.jpg",
+        "images/prop1/prop1pic4.jpg",
+        "images/prop1/prop1pic4.jpg",
+        "images/prop1/prop1pic5.jpg",
+        "images/prop1/prop1pic6.jpg"  
       ],
       
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "floorPlan": "images/prop1/prop1floorplan.jpg",
       "added": { "month": "October", "day": 12, "year": 2022 }
     },
-    
-  
+
     {
       "id": "prop2",
       "type": "Flat",
@@ -35,14 +35,16 @@
       "location": "Crofton Road Orpington BR6",
       "postcode": "BR6",
       "images": [
-        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
-        "https://images.unsplash.com/photo-1502672260066-6bc35f0af07e?w=800",
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
-        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800",
-        "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?w=800",
-        "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800"
+        "images/prop2/prop2pic1.jpg",
+        "images/prop2/prop2pic2.jpg",
+        "images/prop2/prop2pic3.jpg",
+        "images/prop2/prop2pic4.jpg",
+        "images/prop2/prop2pic5.jpg",
+        "images/prop2/prop2pic5.jpg",
+        "images/prop2/prop2pic6.jpg"
+        
       ],
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "floorPlan": "images/prop2/prop1floorplan.jpg",
       "added": { "month": "September", "day": 14, "year": 2022 }   
     },
 
@@ -57,14 +59,16 @@
       "location": "Richmond Road, Kingston KT2",
       "postcode": "KT2",
       "images": [
-        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800",
-        "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=800",
-        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
-        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
-        "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800",
-        "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800"
+        "images/prop3/prop3pic1.jpg",
+        "images/prop3/prop3pic2.jpg",
+        "images/prop3/prop3pic3.jpg",
+        "images/prop3/prop3pic4.jpg",
+        "images/prop3/prop3pic5.jpg",
+        "images/prop3/prop3pic6.jpg"
+        
+        
       ],
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "floorPlan": "images/prop3/prop3floorplan.jpg",
       "added": { "month": "November", "day": 5, "year": 2022 }   
     },
 
@@ -79,14 +83,15 @@
       "location": "Station Approach, Bromley BR1",
       "postcode": "BR1",
       "images": [
-        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800",
-        "https://images.unsplash.com/photo-1502672023488-70e25813eb80?w=800",
-        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800",
-        "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800",
-        "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=800",
-        "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=800"
+        "images/prop4/prop4pic1.jpg",
+        "images/prop4/prop4pic2.jpg",
+        "images/prop4/prop4pic3.jpg",
+        "images/prop4/prop4pic4.jpg",
+        "images/prop4/prop4pic5.jpg",
+        "images/prop4/prop4pic6.jpg"
+        
       ],
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "floorPlan": "images/prop4/prop4floorplan.jpg",
       "added": { "month": "January", "day": 20, "year": 2023 }   
     },
 
@@ -101,14 +106,15 @@
       "location": "The Avenue, Wimbledon SW19",
       "postcode": "SW19",
       "images": [
-        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?w=800",
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800",
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800"
+        "images/prop5/prop5pic1.jpg",
+        "images/prop5/prop5pic2.jpg",
+        "images/prop5/prop5pic3.jpg",
+        "images/prop5/prop5pic4.jpg",
+        "images/prop5/prop5pic5.jpg",
+        "images/prop5/prop5pic6.jpg"
+        
       ],
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "floorPlan": "images/prop5/prop5floorplan.jpg",
       "added": { "month": "December", "day": 1, "year": 2022 }   
     },
 
@@ -123,14 +129,15 @@
       "location": "Grove Park, Lewisham SE12",
       "postcode": "SE12",
       "images": [
-        "https://images.unsplash.com/photo-1515263487990-61b07816b324?w=800",
-        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
-        "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800",
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
-        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800",
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800"
+        "images/prop6/prop6pic1.jpg",
+        "images/prop6/prop6pic2.jpg",
+        "images/prop6/prop6pic3.jpg",
+        "images/prop6/prop6pic4.jpg",
+        "images/prop6/prop6pic5.jpg",
+        "images/prop6/prop6pic6.jpg"
+        
       ],
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "floorPlan": "images/prop6/prop6floorplan.jpg",
       "added": { "month": "February", "day": 28, "year": 2023 }   
     },
 
@@ -155,6 +162,8 @@
       "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
       "added": { "month": "March", "day": 15, "year": 2023 }   
     }
+
+
     
   ] 
   
