@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Estate Agent Property Search Application",
+  "homepage": "https://dasumeth2003.github.io/estate-agent",
   "author": "Dasuntha Samarsinghe",
   "dependencies": {
     "dompurify": "^3.0.8",
