@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import SearchForm from './components/SearchForm';
 import PropertyList from './components/PropertyList';
 import PropertyDetails from './components/PropertyDetails';
