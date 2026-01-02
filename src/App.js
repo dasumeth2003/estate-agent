@@ -1,12 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import SearchForm from './components/searchForm';
 import PropertyList from './components/PropertyList';
 import PropertyDetails from './components/PropertyDetails';
 import FavoritesSidebar from './components/FavoritesSidebar';
 import propertiesData from './data/properties.json';
 import './App.css';
-import ReactDOM from "react-dom/client";
 
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <BrowserRouter basename="/estate-agent">
+    <App />
+  </BrowserRouter>
+);
 
 function App() {
   // State Management
