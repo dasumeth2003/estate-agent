@@ -152,14 +152,14 @@
       "location": "Church Lane, Beckenham BR3",
       "postcode": "BR3",
       "images": [
-        "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800",
-        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=800",
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800",
-        "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=800",
-        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
-        "https://images.unsplash.com/photo-1600563440091-5bf9992896c6?w=800"
+        "images/prop7/prop7pic1.jpg",
+        "images/prop7/prop7pic2.jpg",
+        "images/prop7/prop7pic3.jpg",
+        "images/prop7/prop7pic4.jpg",
+        "images/prop7/prop7pic5.jpg",
+        "images/prop7/prop7pic6.jpg"
       ],
-      "floorPlan": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600",
+      "floorPlan": "images/prop7/prop7floorplan.jpg",
       "added": { "month": "March", "day": 15, "year": 2023 }   
     }
 
