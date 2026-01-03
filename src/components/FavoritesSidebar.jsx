@@ -12,7 +12,7 @@ function FavoritesSidebar({
 }) {
 
   const handleImageError = (e) => {
-    (e.target.src = `${process.env.PUBLIC_URL}/images/placeholder.jpg`)
+    e.target.src = "/images/placeholder.jpg";
   };
 
   return (
@@ -49,7 +49,7 @@ function FavoritesSidebar({
                 className="favorite-item"
               >
                 <img
-                  src={property.images[0]}
+                  src={`/${property.images[0]}`}
                   alt={property.location}
                   className="favorite-image"
                   onError={handleImageError}
