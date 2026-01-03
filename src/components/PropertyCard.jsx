@@ -15,7 +15,7 @@ function PropertyCard({ property, onView, onFavorite, isFavorite, onDragStart })
     >
       {/* Property Image */}
       <img
-        src={process.env.PUBLIC_URL + '/' + property.images[0]}
+        src={property.images[0]}
         alt={property.location}
         className="property-image"
         onError={handleImageError}
