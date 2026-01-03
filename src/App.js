@@ -195,21 +195,23 @@ function App() {
           {/* Subtitle */}
           <p className="app-subtitle">Find your dream property with ease</p>
           
-          {/* Stats Section */}
           <div className="header-stats">
-            <div className="stat-item">
+            <div className="stat">
               <span className="stat-number">1000+</span>
               <span className="stat-label">Properties</span>
             </div>
-            <div className="stat-item">
+
+            <div className="stat">
               <span className="stat-number">500+</span>
               <span className="stat-label">Happy Clients</span>
             </div>
-            <div className="stat-item">
+
+            <div className="stat">
               <span className="stat-number">50+</span>
               <span className="stat-label">Locations</span>
             </div>
           </div>
+
           
           {/* Call to Action Button */}
           <div className="header-cta">
