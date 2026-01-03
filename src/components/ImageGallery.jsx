@@ -24,7 +24,7 @@ function ImageGallery({ images, alt }) {
   };
 
   const handleImageError = (e) => {
-    e.target.src = `${process.env.PUBLIC_URL}/images/placeholder.jpg`;
+    e.target.src = "/images/placeholder.jpg";
   }
 
   return (
