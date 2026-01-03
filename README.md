@@ -4,7 +4,7 @@ A responsive, client-side single-page application (SPA) for searching and browsi
 
 ## Live Demo & Repository
 
-- **Live Application**: https://estate-agent-dasumeth2003-dasuntha-samarasinghe.vercel.app
+- **Live Application**: https://estate-agent-six.vercel.app/
 - **GitHub Repository**: https://github.com/dasumeth2003/estate-agent
 
 ## Project Overview
