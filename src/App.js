@@ -184,7 +184,7 @@ function App() {
       {/* Header */}
       <header className="app-header">
         <div className="header-content">
-          <h1 className="app-title">🏡 Estate Agent</h1>
+          <h1 className="app-title">Estate Agent</h1>
           <p className="app-subtitle">Find your dream property</p>
         </div>
       </header>
