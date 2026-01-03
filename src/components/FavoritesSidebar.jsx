@@ -49,7 +49,7 @@ function FavoritesSidebar({
                 className="favorite-item"
               >
                 <img
-                  src={`${process.env.PUBLIC_URL}${property.images[0]}`}
+                  src={property.images[0]}
                   alt={property.location}
                   className="favorite-image"
                   onError={handleImageError}
