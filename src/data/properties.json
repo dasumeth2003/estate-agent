@@ -11,15 +11,15 @@
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
       "postcode": "BR5",
       "images": [
-        "/images/prop1/prop1pic1.png",
-        "/images/prop1/prop1pic2.png",
-        "/images/prop1/prop1pic3.jpg",
-        "/images/prop1/prop1pic4.jpg",
-        "/images/prop1/prop1pic5.jpg",
-        "/images/prop1/prop1pic6.jpg"  
+        "images/prop1/prop1pic1.png",
+        "images/prop1/prop1pic2.png",
+        "images/prop1/prop1pic3.jpg",
+        "images/prop1/prop1pic4.jpg",
+        "images/prop1/prop1pic5.jpg",
+        "images/prop1/prop1pic6.jpg"  
       ],
-      
-      "floorPlan": "/images/prop1/prop1floorplan.jpg",
+
+      "floorPlan": "images/prop1/prop1floorplan.jpg",
       "added": { "month": "October", "day": 12, "year": 2022 }
     },
 
@@ -34,15 +34,15 @@
       "location": "Crofton Road Orpington BR6",
       "postcode": "BR6",
       "images": [
-        "/images/prop2/prop2pic1.jpg",
-        "/images/prop2/prop2pic2.jpg",
-        "/images/prop2/prop2pic3.jpg",
-        "/images/prop2/prop2pic4.jpg",
-        "/images/prop2/prop2pic5.jpg",
-        "/images/prop2/prop2pic6.jpg"
+        "images/prop2/prop2pic1.jpg",
+        "images/prop2/prop2pic2.jpg",
+        "images/prop2/prop2pic3.jpg",
+        "images/prop2/prop2pic4.jpg",
+        "images/prop2/prop2pic5.jpg",
+        "images/prop2/prop2pic6.jpg"
         
       ],
-      "floorPlan": "/images/prop2/prop1floorplan.jpg",
+      "floorPlan": "images/prop2/prop2floorplan.jpg",
       "added": { "month": "September", "day": 14, "year": 2022 }   
     },
 
@@ -57,12 +57,12 @@
       "location": "Richmond Road, Kingston KT2",
       "postcode": "KT2",
       "images": [
-        "/images/prop3/prop3pic1.jpg",
-        "/images/prop3/prop3pic2.jpg",
-        "/images/prop3/prop3pic3.jpg",
-        "/images/prop3/prop3pic4.jpg",
-        "/images/prop3/prop3pic5.jpg",
-        "/images/prop3/prop3pic6.jpg"
+        "images/prop3/prop3pic1.jpg",
+        "images/prop3/prop3pic2.jpg",
+        "images/prop3/prop3pic3.jpg",
+        "images/prop3/prop3pic4.jpg",
+        "images/prop3/prop3pic5.jpg",
+        "images/prop3/prop3pic6.jpg"
         
         
       ],
@@ -81,12 +81,12 @@
       "location": "Station Approach, Bromley BR1",
       "postcode": "BR1",
       "images": [
-        "/images/prop4/prop4pic1.jpg",
-        "/images/prop4/prop4pic2.jpg",
-        "/images/prop4/prop4pic3.jpg",
-        "/images/prop4/prop4pic4.jpg",
-        "/images/prop4/prop4pic5.jpg",
-        "/images/prop4/prop4pic6.jpg"
+        "images/prop4/prop4pic1.jpg",
+        "images/prop4/prop4pic2.jpg",
+        "images/prop4/prop4pic3.jpg",
+        "images/prop4/prop4pic4.jpg",
+        "images/prop4/prop4pic5.jpg",
+        "images/prop4/prop4pic6.jpg"
         
       ],
       "floorPlan": "images/prop4/prop4floorplan.jpg",
@@ -104,12 +104,12 @@
       "location": "The Avenue, Wimbledon SW19",
       "postcode": "SW19",
       "images": [
-        "/images/prop5/prop5pic1.jpg",
-        "/images/prop5/prop5pic2.jpg",
-        "/images/prop5/prop5pic3.jpg",
-        "/images/prop5/prop5pic4.jpg",
-        "/images/prop5/prop5pic5.jpg",
-        "/images/prop5/prop5pic6.jpg"
+        "images/prop5/prop5pic1.jpg",
+        "images/prop5/prop5pic2.jpg",
+        "images/prop5/prop5pic3.jpg",
+        "images/prop5/prop5pic4.jpg",
+        "images/prop5/prop5pic5.jpg",
+        "images/prop5/prop5pic6.jpg"
         
       ],
       "floorPlan": "images/prop5/prop5floorplan.jpg",
@@ -127,12 +127,12 @@
       "location": "Grove Park, Lewisham SE12",
       "postcode": "SE12",
       "images": [
-        "/images/prop6/prop6pic1.jpg",
-        "/images/prop6/prop6pic2.jpg",
-        "/images/prop6/prop6pic3.jpg",
-        "/images/prop6/prop6pic4.jpg",
-        "/images/prop6/prop6pic5.jpg",
-        "/images/prop6/prop6pic6.jpg"
+        "images/prop6/prop6pic1.jpg",
+        "images/prop6/prop6pic2.jpg",
+        "images/prop6/prop6pic3.jpg",
+        "images/prop6/prop6pic4.jpg",
+        "images/prop6/prop6pic5.jpg",
+        "images/prop6/prop6pic6.jpg"
         
       ],
       "floorPlan": "images/prop6/prop6floorplan.jpg",
@@ -150,12 +150,12 @@
       "location": "Church Lane, Beckenham BR3",
       "postcode": "BR3",
       "images": [
-        "/images/prop7/prop7pic1.jpg",
-        "/images/prop7/prop7pic2.jpg",
-        "/images/prop7/prop7pic3.jpg",
-        "/images/prop7/prop7pic4.jpg",
-        "/images/prop7/prop7pic5.jpg",
-        "/images/prop7/prop7pic6.jpg"
+        "images/prop7/prop7pic1.jpg",
+        "images/prop7/prop7pic2.jpg",
+        "images/prop7/prop7pic3.jpg",
+        "images/prop7/prop7pic4.jpg",
+        "images/prop7/prop7pic5.jpg",
+        "images/prop7/prop7pic6.jpg"
       ],
       "floorPlan": "images/prop7/prop7floorplan.jpg",
       "added": { "month": "March", "day": 15, "year": 2023 }   
