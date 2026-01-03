@@ -62,7 +62,7 @@ function SearchForm({ filters, setFilters, onSearch }) {
 
   return (
     <form onSubmit={handleSubmit} className="search-form">
-      <h2 className="search-title">🔍 Search Properties</h2>
+      <h2 className="search-title">Search Properties</h2>
       
       <div className="search-grid">
         
