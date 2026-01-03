@@ -181,12 +181,46 @@ function App() {
 
   return (
     <div className="app">
-      {/* Header */}
+      {/* CREATIVE HEADER */}
       <header className="app-header">
+        {/* Floating particles */}
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        
         <div className="header-content">
+          {/* Main Title */}
           <h1 className="app-title">Estate Agent</h1>
-          <p className="app-subtitle">Find your dream property</p>
+          
+          {/* Subtitle */}
+          <p className="app-subtitle">Find your dream property with ease</p>
+          
+          {/* Stats Section */}
+          <div className="header-stats">
+            <div className="stat-item">
+              <span className="stat-number">1000+</span>
+              <span className="stat-label">Properties</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-number">500+</span>
+              <span className="stat-label">Happy Clients</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-number">50+</span>
+              <span className="stat-label">Locations</span>
+            </div>
+          </div>
+          
+          {/* Call to Action Button */}
+          <div className="header-cta">
+            <button className="cta-button" onClick={() => window.scrollTo({ top: 400, behavior: 'smooth' })}>
+              Start Searching
+            </button>
+          </div>
         </div>
+        
+        {/* Scroll Indicator */}
+        <div className="scroll-indicator"></div>
       </header>
 
       {/* Main Content */}
