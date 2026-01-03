@@ -19,9 +19,7 @@ body {
   flex-direction: column;
 }
 
-/* ============================================
-   MODERN CREATIVE HEADER - STUNNING DESIGN
-   ============================================ */
+/*Header Styles*/
 
 .app-header {
   position: relative;
@@ -31,7 +29,7 @@ body {
       rgba(118, 75, 162, 0.95) 50%,
       rgba(237, 100, 166, 0.95) 100%
     ),
-    url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80') center center / cover no-repeat;
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80');
   
   color: white;
   padding: 5rem 3rem;
@@ -123,7 +121,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: titleShine 3s linear infinite;
-  position: relative;
+  text-align: center;
   display: inline-block;
 }
 
@@ -136,14 +134,6 @@ body {
   }
 }
 
-/* Add icon before title */
-.app-title::before {
-  content: '🏡';
-  display: inline-block;
-  margin-right: 1rem;
-  animation: bounce 2s ease infinite;
-  font-size: 4rem;
-}
 
 @keyframes bounce {
   0%, 100% {
@@ -381,37 +371,7 @@ body {
   }
 }
 
-/* ============================================
-   ALTERNATIVE STYLES (Comment/Uncomment)
-   ============================================ */
 
-/* Glass morphism effect 
-.app-header {
-  background: rgba(102, 126, 234, 0.1);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-*/
-
-/* Dark mode 
-.app-header {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-}
-*/
-
-/* Minimal clean 
-.app-header {
-  background: #ffffff;
-  color: #333;
-  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-}
-
-.app-title {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-*/
 
 /* MAIN CONTENT LAYOUT */
 
