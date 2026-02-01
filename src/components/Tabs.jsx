@@ -5,7 +5,7 @@ function Tabs({ property }) {
   const [activeTab, setActiveTab] = useState('description');
 
   const handleImageError = (e) => {
-    console.log('Image failes to load: ', e.target.src);
+    console.log('Image failed to load: ', e.target.src);
     e.target.src = '/images/placeholder.jpg';
   }
 
@@ -32,12 +32,13 @@ function Tabs({ property }) {
           className={`tab-button ${activeTab === 'map' ? 'active' : ''}`}
           type="button"
         >
-          Map
+          Location Map
         </button>
       </div>
 
       {/* Tab Content */}
       <div className="tabs-content">
+        {/* Description Tab */}
         {activeTab === 'description' && (
           <div className="tab-panel">
             <h3>Property Description</h3>
@@ -45,10 +46,13 @@ function Tabs({ property }) {
             <div className="property-info">
               <p><strong>Added:</strong> {property.added.month} {property.added.day}, {property.added.year}</p>
               <p><strong>Tenure:</strong> {property.tenure}</p>
+              <p><strong>Property Type:</strong> {property.type}</p>
+              <p><strong>Bedrooms:</strong> {property.bedrooms}</p>
             </div>
           </div>
         )}
 
+        {/* Floor Plan Tab */}
         {activeTab === 'floorplan' && (
           <div className="tab-panel">
             <h3>Floor Plan</h3>
@@ -61,16 +65,31 @@ function Tabs({ property }) {
           </div>
         )}
 
+        {/* Google Map Tab */}
         {activeTab === 'map' && (
           <div className="tab-panel">
-            <h3>Location</h3>
+            <h3> Map</h3>
+            
+            {/* Google Maps Interactive Section */}
             <div className="map-placeholder">
               <div className="map-content">
-                <p className="map-icon">📍</p>
-                <p className="map-location">{property.location}</p>
-                <p className="map-note">Google Maps would be embedded here</p>
+                <div className="map-icon">🗺️</div>
+                <h4 className="map-location">{property.location}</h4>
+                <p className="map-postcode">Postcode Area: {property.postcode}</p>
+                
+                {/* Google Maps Button */}
+                <a 
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(property.location)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="view-map-button"
+                >
+                  Open in Google Maps →
+                </a>
               </div>
             </div>
+
+          
           </div>
         )}
       </div>
